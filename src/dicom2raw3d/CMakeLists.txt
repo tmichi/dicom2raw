@@ -1,0 +1,6 @@
+ADD_EXECUTABLE(dicom2raw3d dicom2raw3d.cpp)
+INSTALL(TARGETS dicom2raw3d
+	RUNTIME
+	DESTINATION bin)
+INCLUDE_DIRECTORIES(../../include)
+TARGET_LINK_LIBRARIES( dicom2raw3d dtr)
