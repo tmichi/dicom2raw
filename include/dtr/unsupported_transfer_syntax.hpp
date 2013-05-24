@@ -3,15 +3,17 @@
 
 #include <exception>
 
-namespace dtr {
+namespace dtr
+{
 
 //! ‘Î‰‚µ‚Ä‚¢‚È‚¢“]‘—\•¶‚Å‚ ‚é‚±‚Æ‚ğ¦‚·—áŠO
-class Unsupported_Transfer_Syntax : public std::exception {
-public:
-    virtual const char* what() const throw() {
-        return "Unsupported transfer syntax";
-    }
-};
+        class Unsupported_Transfer_Syntax : public std::exception
+        {
+        public:
+                virtual const char* what() const throw() {
+                        return "Unsupported transfer syntax";
+                }
+        };
 
 } // namespace dtr
 

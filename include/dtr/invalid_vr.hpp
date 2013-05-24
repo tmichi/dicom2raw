@@ -3,15 +3,17 @@
 
 #include <exception>
 
-namespace dtr {
+namespace dtr
+{
 
 //! ‘Ã“–‚Å‚È‚¢’l•\Œ»‚Å‚ ‚é‚±‚Æ‚ðŽ¦‚·—áŠO
-class Invalid_Vr : public std::exception {
-public:
-    virtual const char* what() const throw() {
-        return "Invalid vr";
-    }
-};
+        class Invalid_Vr : public std::exception
+        {
+        public:
+                virtual const char* what() const throw() {
+                        return "Invalid vr";
+                }
+        };
 
 } // namespace dtr
 

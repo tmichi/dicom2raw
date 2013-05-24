@@ -114,8 +114,11 @@ namespace dtr
                 } else if ( tag_ == Tag( 0x0018, 0x0088 ) ) {
                         std::vector<double> vector = value.get_ds();
                         information.set_spacing_between_slices( vector[0] );
+                } else if ( tag_ == Tag( 0x0020, 0x0032 ) ) {
+			std::vector<double> vector = value.get_ds();
+			information.set_image_position_patient(vector[0], vector[1], vector[2]);
+		}
 
-                }
 
                 return true;
         }

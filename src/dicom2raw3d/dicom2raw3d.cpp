@@ -30,6 +30,11 @@ int create_output_file_name( const std::vector<std::string> & input_files, std::
     double px = information.get_pixel_spacing_row();
     double py = information.get_pixel_spacing_column();
     double pz = information.get_spacing_between_slices();
+
+    double ox = information.get_image_position_patient_x();
+    double oy = information.get_image_position_patient_y();
+    double oz = information.get_image_position_patient_z();
+    std::cerr<<"[info] origin position : ("<<ox<<", "<<oy<<", "<<oz<<")"<<std::endl;
     std::stringstream ss;
 
     //

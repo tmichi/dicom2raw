@@ -3,15 +3,17 @@
 
 #include <exception>
 
-namespace dtr {
+namespace dtr
+{
 
 //! ファイル終端を示す例外
-class Unexpected_Eof : public std::exception {
-public:
-    virtual const char* what() const throw() {
-        return "Unexpected eof";
-    }
-};
+        class Unexpected_Eof : public std::exception
+        {
+        public:
+                virtual const char* what() const throw() {
+                        return "Unexpected eof";
+                }
+        };
 
 } // namespace dtr
 

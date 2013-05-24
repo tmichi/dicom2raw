@@ -14,6 +14,9 @@ namespace dtr
                 pixel_spacing_column_ = 1;
                 slice_thickness_ = 1;
                 spacing_between_slices_ = 1;
+		image_position_patient_x_ = 0;
+		image_position_patient_y_ = 0;
+		image_position_patient_z_ = 0;
                 bits_allocated_ = 0;
                 bits_stored_ = 0;
                 high_bit_ = 0;
