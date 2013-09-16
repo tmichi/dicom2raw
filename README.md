@@ -1,6 +1,6 @@
 dicom2raw
 =========
-        Converting DICOM files to RAW file( s )
+Converting DICOM files to RAW file( s )
 	
 
 Usage
