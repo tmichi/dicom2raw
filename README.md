@@ -8,9 +8,9 @@ Usage
 	dicom2raw 00.dcm 01.dcm ....
 	
 	More programs are available (e.g. convert DICOM files to RAW image (3d)).
-Lisence
+License
 --------
-	3-clause BSD Lisence (See COPYRIGHT.txt)
+	3-clause BSD License (See COPYRIGHT.txt)
 
 Note 
 --------
