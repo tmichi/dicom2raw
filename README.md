@@ -14,4 +14,4 @@ Lisence
 
 Note 
 --------
-	This software was developed at Suzuki Laboratory at RCAST, Univ. Tokyo for the research purpose. 
+	This software was developed at Suzuki Laboratory at RCAST, Univ. Tokyo for the research purpose in 2007. 
