@@ -34,7 +34,7 @@ int create_output_file_name( const std::vector<std::string> & input_files, std::
     double ox = information.get_image_position_patient_x();
     double oy = information.get_image_position_patient_y();
     double oz = information.get_image_position_patient_z();
-    std::cerr<<"[info] origin position : ("<<ox<<", "<<oy<<", "<<oz<<")"<<std::endl;
+    std::cout<<"[info] origin position : ("<<ox<<", "<<oy<<", "<<oz<<")"<<std::endl;
     std::stringstream ss;
 
     //
@@ -42,7 +42,7 @@ int create_output_file_name( const std::vector<std::string> & input_files, std::
     output_header = input_files[0];
     ss<<output_header<<"-"<<sx<<"x"<<sy<<"x"<<sz<<"-"<<px<<"x"<<py<<"x"<<pz<<".raw";
     output_file = ss.str();
-    std::cerr<< "[info] bits stored: " << information.get_bits_stored() << std::endl;
+    std::cout<< "[info] bits stored: " << information.get_bits_stored() << std::endl;
     return 1;
 }
 
